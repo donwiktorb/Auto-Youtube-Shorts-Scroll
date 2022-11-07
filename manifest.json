@@ -2,14 +2,14 @@
 
     "manifest_version": 2,
     "name": "dwb_yt_shorts_autoscroll",
-    "version": "1.0",
+    "version": "1.5",
   
     "description": "Auto scrolls youtube shorts like tiktok",
   
     "icons": {
       "48": "icons/dwb.png"
     },
-  
+
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/shorts/*"],
@@ -20,6 +20,5 @@
     "web_accessible_resources": [
         "main.js"
     ]
-
   
 }
